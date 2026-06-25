@@ -8,10 +8,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=LikhinMN&label=Profile%20Views&color=0e75b6&style=flat" alt="LikhinMN Profile Views" />
-</p>
-
 ---
 
 ## 👨‍💻 About Me
@@ -109,6 +105,10 @@ I'm a full-stack developer with a passion for **AI/ML**, **systems programming**
   <a href="https://www.linkedin.com/in/likhin-m-n-a64842300">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=LikhinMN&label=Profile%20Views&color=0e75b6&style=flat" alt="LikhinMN Profile Views" />
 </p>
 
 <p align="center">
