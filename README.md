@@ -8,6 +8,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=LikhinMN&label=Profile%20Views&color=0e75b6&style=flat" alt="LikhinMN Profile Views" />
+</p>
+
 ---
 
 ## 👨‍💻 About Me
