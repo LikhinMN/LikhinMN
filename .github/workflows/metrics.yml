@@ -17,7 +17,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.base.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: LikhinMN
           template: classic
           base: header, activity, community, repositories, metadata
@@ -30,7 +30,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: LikhinMN
           template: classic
           base: ""
@@ -47,7 +47,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: LikhinMN
           template: classic
           base: ""
@@ -62,7 +62,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: LikhinMN
           template: classic
           base: ""
@@ -76,7 +76,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.notable.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: LikhinMN
           template: classic
           base: ""
@@ -92,7 +92,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: LikhinMN
           template: classic
           base: ""
