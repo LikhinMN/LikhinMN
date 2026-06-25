@@ -1,0 +1,104 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Base Metrics (Left column)
+      - name: Base Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: LikhinMN
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          plugin_lines: yes
+          plugin_traffic: yes
+
+      # Languages and Isometric Calendar (Right column)
+      - name: Languages & IsoCalendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: LikhinMN
+          template: classic
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+      # Coding Habits
+      - name: Coding Habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: LikhinMN
+          template: classic
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+
+      # Achievements
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: LikhinMN
+          template: classic
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+
+      # Follow-up and Notable Contributions
+      - name: Issue Follow-up & Notable Contributions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: LikhinMN
+          template: classic
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+
+      # Repositories & Stars
+      - name: Repositories & Stars
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.repositories.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: LikhinMN
+          template: classic
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_repositories: yes
+          plugin_repositories_featured: LikhinMN/ZeroG, LikhinMN/Moodify, LikhinMN/raxios, LikhinMN/pymiro
+          plugin_stars: yes
+          plugin_stars_limit: 4
