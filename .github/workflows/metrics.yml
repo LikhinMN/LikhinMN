@@ -42,34 +42,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-      # Coding Habits
-      - name: Coding Habits
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.habits.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: LikhinMN
-          template: classic
-          base: ""
-          config_timezone: Asia/Kolkata
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 14
-          plugin_habits_from: 200
-
-      # Achievements
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: LikhinMN
-          template: classic
-          base: ""
-          config_timezone: Asia/Kolkata
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
 
       # Follow-up and Notable Contributions
       - name: Issue Follow-up & Notable Contributions

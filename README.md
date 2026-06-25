@@ -76,24 +76,6 @@ I'm a full-stack developer with a passion for **AI/ML**, **systems programming**
   </tr>
   <tr>
     <td align="center" width="50%">
-      <b>Achievements</b><br/>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.achievements.svg">
-        <source media="(prefers-color-scheme: light)" srcset="metrics.plugin.achievements.svg">
-        <img src="metrics.plugin.achievements.svg" alt="Achievements" />
-      </picture>
-    </td>
-    <td align="center" width="50%">
-      <b>Coding Habits</b><br/>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.habits.svg">
-        <source media="(prefers-color-scheme: light)" srcset="metrics.plugin.habits.svg">
-        <img src="metrics.plugin.habits.svg" alt="Coding Habits" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
       <b>Repositories & Stars</b><br/>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="metrics.plugin.repositories.svg">
