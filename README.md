@@ -20,8 +20,6 @@ I believe in writing maintainable code, learning in public, and contributing to 
 
 ---
 
-*(These metrics are automatically regenerated daily using GitHub Actions & lowlighter/metrics)*
-
 <table align="center">
   <tr>
     <td align="center" width="50%">
