@@ -10,48 +10,15 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I'm a full-stack developer with a passion for **AI/ML**, **systems programming**, and **building elegant applications**. I bridge the gap between heavy backend computing (using Python & Rust) and beautiful, interactive frontends (React & Flutter). 
+I'm a Computer Engineering student with a strong interest in backend engineering, AI-powered applications, and open-source software. I enjoy building scalable systems, designing clean APIs, and turning complex ideas into practical, reliable solutions.
 
-*   🔭 **Current Focus:** Deep learning for computer vision (like *Moodify*), decentralized systems (*orinox*), and high-performance Rust utilities.
-*   🧠 **Learning:** Advanced Systems Design, WebAssembly, and more advanced Rust ecosystems.
-*   💬 **Ask me about:** JavaScript/TypeScript, Python, Rust, Flutter, and AI integration.
+My current focus includes backend development with FastAPI, modern web technologies, and applied AI using large language models. I'm continuously improving my engineering skills through personal projects, open-source contributions, and by exploring software architecture, performance, and developer tooling.
 
----
-
-## 🛠️ Tech Stack & Tools
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,python,rust,dart,c,cpp" />
-  </a>
-  <br />
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,nodejs,fastapi,express,prisma" />
-  </a>
-  <br />
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=postgres,redis,sqlite,docker,git,linux,vscode" />
-  </a>
-</p>
+I believe in writing maintainable code, learning in public, and contributing to projects that create real-world impact.
 
 ---
-
-## 📌 Featured Projects
-
-| Project | Description | Role/Stack |
-| :--- | :--- | :--- |
-| 💸 **[ZeroG](https://github.com/LikhinMN/ZeroG)** | AI-powered personal finance ledger with local-first storage and intelligent insights. | `Python`, `AI/ML` |
-| 🎵 **[Moodify](https://github.com/LikhinMN/Moodify)** | End-to-end deep learning pipeline classifying music moods via visual Mel Spectrograms (ResNet18). | `FastAPI`, `React`, `PyTorch` |
-| ⚡ **[raxios](https://github.com/LikhinMN/raxios)** | High-performance HTTP client built with Rust and N-API, with Axios compatibility. | `Rust`, `Node.js` |
-| 🖼️ **[pymiro](https://github.com/LikhinMN/pymiro)** | Signal-native, declarative GUI framework for Python. | `Python` |
-| 📱 **[pico](https://github.com/LikhinMN/pico)** | Featherweight, zero-boilerplate state management for Flutter. | `Dart`, `Flutter` |
-| 💬 **[orinox](https://github.com/LikhinMN/orinox)** | Decentralized P2P chat platform with E2EE messaging built on libp2p. | `P2P`, `Networking` |
-
----
-
-## 📊 Developer Metrics & Insights
 
 *(These metrics are automatically regenerated daily using GitHub Actions & lowlighter/metrics)*
 
@@ -93,6 +60,24 @@ I'm a full-stack developer with a passion for **AI/ML**, **systems programming**
     </td>
   </tr>
 </table>
+
+---
+
+## Tech Stack & Tools
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,python,rust,dart,c,cpp" />
+  </a>
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,nodejs,fastapi,express,prisma" />
+  </a>
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,redis,sqlite,docker,git,linux,vscode" />
+  </a>
+</p>
 
 ---
 
